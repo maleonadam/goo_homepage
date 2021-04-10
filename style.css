@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    padding: 10px 10px;
+    display: inline;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+header ul li img{
+    color: gray;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+header ul li button{
+    height: 30px;
+    /* line-height: 30px; */
+    width: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 0;
+}
+
+main{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 0;
+}
+
+main h1{
+    font-size: 62px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.one{
+    color: blue;
+}
+.two{
+    color: red;
+}
+.three{
+    color: orange;
+}
+.four{
+    color: green;
+}
+
+main input{
+    border-radius: 30px;
+    padding: 10px 10px;
+    border: 1px solid lightgrey;
+    width: 50%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.g-buttons{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+a.my-buttons{
+    background-color: lightgrey;
+    border:0;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.my-buttons:hover{
+    border:1px solid grey;
+    box-shadow: 0px 1px grey;
+}
+
+main p{
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+main p a{
+    text-decoration: none;
+}
+
+footer{
+    background: lightgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.footer-items ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-items ul li{
+    list-style: none;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.footer-items ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.footer-items p{
+    padding: 10px 10px;
+    font-size: 14px;
+    color: grey;
+}
+
+.fa-envira{
+    color: darkgreen;
+}
